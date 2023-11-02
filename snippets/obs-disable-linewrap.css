@@ -1,0 +1,25 @@
+/* https://forum.obsidian.md/t/disable-word-wrap-for-code-blocks/13210/22 */
+/* https://forum.obsidian.md/t/how-do-i-turn-off-line-wrap/45524/12 */
+
+/* .markdown-rendered pre {
+    position: initial;
+    overflow-x: auto;
+} */
+
+/* .markdown-rendered div {
+    position: relative;
+    /* width: max-content; */
+} */
+
+.markdown-rendered code {
+    width: max-content;
+}
+/* Line wrap*/                                                                           
+.cm-line {
+    white-space: pre;                                                           
+}                                                                               
+                                                                                 */
+/* code block only - scrollbar. Editing & Reading */                            
+.HyperMD-codeblock, .markdown-preview-view pre code {                           
+    white-space: pre;                                                           
+}    

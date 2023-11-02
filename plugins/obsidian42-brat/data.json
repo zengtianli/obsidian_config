@@ -1,0 +1,18 @@
+{
+  "pluginList": [
+    "alangrainger/obsidian-image-captions",
+    "jrymk/obsidian-tab-key",
+    "lijyze/scroll-offset",
+    "nothingislost/obsidian-bartender"
+  ],
+  "pluginSubListFrozenVersion": [],
+  "themesList": [],
+  "updateAtStartup": true,
+  "updateThemesAtStartup": true,
+  "ribbonIconEnabled": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": true,
+  "notificationsEnabled": true
+}

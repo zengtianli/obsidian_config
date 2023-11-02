@@ -1,0 +1,33 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "jpg",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [
+    {
+      "name": "citationkey2",
+      "format": "pandoc",
+      "brackets": true
+    }
+  ],
+  "exportFormats": [
+    {
+      "name": "Import #2",
+      "outputPathTemplate": "{{citekey}}.md",
+      "imageOutputPathTemplate": "{{citekey}}/",
+      "imageBaseNameTemplate": "image"
+    },
+    {
+      "name": "Import #1",
+      "outputPathTemplate": "{{citekey}}.md",
+      "imageOutputPathTemplate": "{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "import1.md",
+      "cslStyle": "apa"
+    }
+  ],
+  "exeVersion": "1.0.15",
+  "openNoteAfterImport": false,
+  "shouldConcat": false
+}

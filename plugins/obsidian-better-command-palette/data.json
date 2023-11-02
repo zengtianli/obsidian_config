@@ -1,0 +1,37 @@
+{
+  "closeWithBackspace": true,
+  "showPluginName": true,
+  "fileSearchPrefix": "/",
+  "tagSearchPrefix": "#",
+  "commandSearchHotkey": "p",
+  "fileSearchHotkey": "o",
+  "tagSearchHotkey": "t",
+  "suggestionLimit": 50,
+  "recentAbovePinned": true,
+  "hyperKeyOverride": false,
+  "displayOnlyNotesNames": false,
+  "hideMdExtension": true,
+  "recentlyUsedText": "(recently used)",
+  "macros": [
+    {
+      "name": "my macro1",
+      "commandIds": [
+        "obsidian-minimal-settings:toggle-minimal-focus-mode",
+        "obsidian-minimal-settings:toggle-minimal-switch"
+      ],
+      "delay": 200
+    }
+  ],
+  "hotkeyStyle": "auto",
+  "createNewFileMod": "Mod",
+  "openInNewTabMod": "Shift",
+  "hiddenCommands": [
+    "obsidian-zotero-desktop-connector:zdc-Format #1",
+    "obsidian-zotero-desktop-connector:zdc-exp-Import #2",
+    "obsidian-zotero-desktop-connector:zdc-exp-Import #1"
+  ],
+  "hiddenFiles": [],
+  "hiddenTags": [],
+  "fileTypeExclusion": [],
+  "createNewPaneMod": "Shift"
+}

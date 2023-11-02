@@ -1,0 +1,108 @@
+{
+  "trigger_auto_manual": "Automatic",
+  "use_regex_to_check_for_tags": false,
+  "statusBar_trigger_indicator": true,
+  "folder_tag_pattern": [
+    {
+      "folder": "003_sumns",
+      "tag": "",
+      "pattern": "^sumn_"
+    },
+    {
+      "folder": "004_mybb",
+      "tag": "",
+      "pattern": "^myb_"
+    },
+    {
+      "folder": "019_tp_back",
+      "tag": "",
+      "pattern": "^tp1_"
+    },
+    {
+      "folder": "020_templates",
+      "tag": "",
+      "pattern": "^tp_"
+    },
+    {
+      "folder": "020_templates/1-chhoumann",
+      "tag": "",
+      "pattern": "^tp-ch_"
+    },
+    {
+      "folder": "020_templates/2-gitmurf",
+      "tag": "",
+      "pattern": "^tp-gm_"
+    },
+    {
+      "folder": "022_tp_notes",
+      "tag": "",
+      "pattern": "^tp0_"
+    },
+    {
+      "folder": "030_reference",
+      "tag": "",
+      "pattern": "^ref_"
+    },
+    {
+      "folder": "040_profane",
+      "tag": "",
+      "pattern": "^essay_"
+    },
+    {
+      "folder": "059_linux",
+      "tag": "",
+      "pattern": "^linux_"
+    },
+    {
+      "folder": "060_tech/net",
+      "tag": "",
+      "pattern": "^net_"
+    },
+    {
+      "folder": "061_mac",
+      "tag": "",
+      "pattern": "^mac_"
+    },
+    {
+      "folder": "062_vim",
+      "tag": "",
+      "pattern": "^vim_"
+    },
+    {
+      "folder": "063_obs",
+      "tag": "",
+      "pattern": "^obs_"
+    },
+    {
+      "folder": "064_obsv",
+      "tag": "",
+      "pattern": "^obsv_"
+    },
+    {
+      "folder": "065_obsp",
+      "tag": "",
+      "pattern": "^obsp_"
+    },
+    {
+      "folder": "066_zote",
+      "tag": "",
+      "pattern": "^zote_"
+    },
+    {
+      "folder": "002_modns",
+      "tag": "",
+      "pattern": "^modn_"
+    },
+    {
+      "folder": "001 Diary",
+      "tag": "",
+      "pattern": "^2023-"
+    }
+  ],
+  "use_regex_to_check_for_excluded_folder": false,
+  "excluded_folder": [
+    {
+      "folder": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "targetAttributes": [
+    "status"
+  ],
+  "targetTags": true,
+  "getFromInlineField": true,
+  "enableTabHeader": true,
+  "activateSnippet": true,
+  "enableEditor": true,
+  "enableFileList": true,
+  "enableBacklinks": true,
+  "enableQuickSwitcher": true,
+  "enableSuggestor": true,
+  "selectors": [
+    {
+      "type": "tag",
+      "name": "status",
+      "value": "person",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "88e8-d02f",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "attribute",
+      "name": "status",
+      "value": "call soon",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "93e5-efdb",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    }
+  ]
+}

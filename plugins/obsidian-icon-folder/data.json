@@ -1,0 +1,57 @@
+{
+  "settings": {
+    "migrated": 3,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "RiDraftFill",
+      "TiArticle",
+      "TiTemplate",
+      "SiTemporal",
+      "TiTrash"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false
+  },
+  "001_Diary": "TiBook",
+  "000-inbox": "TiMail",
+  "002_modified_notes": {
+    "iconName": "TiEdit",
+    "inheritanceIcon": "TiEdit"
+  },
+  "061_mac": {
+    "iconName": "SiApple",
+    "inheritanceIcon": "SiApple"
+  },
+  "062_vim": {
+    "iconName": "SiVim",
+    "inheritanceIcon": "SiVim"
+  },
+  "063_obsidian": "SiObsidian",
+  "066_zotero": {
+    "iconName": "SiZotero",
+    "inheritanceIcon": "SiZotero"
+  },
+  "070_theniceboy": "SiLinux",
+  "080_projects": "FasDiagramProject",
+  "100_from_post": "FasNewspaper",
+  "101_trash": "TiTrash",
+  "020_templates": {
+    "iconName": "TiTemplate",
+    "inheritanceIcon": "TiTemplate"
+  },
+  "_posts": "TiArticle",
+  "_drafts": "RiDraftFill"
+}

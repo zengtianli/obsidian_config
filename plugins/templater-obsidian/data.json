@@ -1,0 +1,39 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "020_templates",
+  "templates_pairs": [
+    [
+      "weather",
+      "curl wttr.in/Hangzhou\\?format=\"%l:+%c+%t++Sunrise:+%S++Sunset:++%S\""
+    ],
+    [
+      "processDates",
+      "titleDate=\"$1\"\nyesterday=$(date -d \"$titleDate -1 day\" +\"%Y-%m-%d_%a\")\ntomorrow=$(date -d \"$titleDate +1 day\" +\"%Y-%m-%d_%a\")\necho \"← [[001_Diary/$yesterday]] | [[001_Diary/$tomorrow]] →\"\n"
+    ],
+    [
+      "createlinks",
+      "/Users/tianli/Documents/sync/Tianli_brain/shell/createlinks.sh \"2023-10-10\""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": true,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": true,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "enable_ribbon_icon": true
+}

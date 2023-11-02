@@ -1,0 +1,430 @@
+{
+  "choices": [
+    {
+      "id": "8b2103c4-36c4-4637-9f4c-77c29c4d8aaf",
+      "name": "Tasksync",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "Untitled.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{MACRO:Tasksycn}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "442e8576-d105-48dd-8584-dc2c0dc9c27b",
+      "name": "Add to kanban",
+      "type": "Macro",
+      "command": false,
+      "macroId": "fa0af106-7fe1-452d-9fe7-6759aaf9b100"
+    },
+    {
+      "id": "141e2890-76f0-4304-8217-b4fd3f6117ff",
+      "name": "folder",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "fe156974-8f84-41f2-b193-04359df0160a",
+          "name": "Capture Daily Notes",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "000-inbox/{{DATE}}_{{DATE:ddd}}.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": true,
+            "createWithTemplate": true,
+            "template": "020_templates/dairy.md"
+          },
+          "format": {
+            "enabled": false,
+            "format": "- {{DATE:hh:mm}} {{value}}\n"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "# {{DATE}}_{{DATE:ddd}}",
+            "insertAtEnd": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "0d59dbe1-997f-4714-a3cc-07f931ff41c6",
+          "name": "Create Note",
+          "type": "Template",
+          "command": false,
+          "templatePath": "020-templates/demo",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": false,
+            "folders": [],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "3187090b-c6fc-432d-8da4-c91ac204193d",
+      "name": "Zettelizer",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "021_example/Untitled.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{MACRO:zettelier}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "bbf6045e-05a9-4d75-9aa4-193b2a20381a",
+      "name": "plug url",
+      "type": "Template",
+      "command": false,
+      "templatePath": "020_templates",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing"
+    },
+    {
+      "id": "70928ea7-6ca6-438c-a70b-9c6fae8061d7",
+      "name": "Capture YAML",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "---\naliases: [\"<%tp.file.cursor(0)%>\"]\ntype:\ntags: \nresource:\n---"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "95008616-1a3b-47cb-b8e3-90cd89aa7dcb",
+      "name": "tp_timeline",
+      "type": "Template",
+      "command": false,
+      "templatePath": "020",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "5480c3bd-c30c-4809-ab15-53359aa8b307",
+      "name": "Cap Date",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{DATE:}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "c3178c87-673d-4b39-9a03-d837bef6e5d3",
+      "name": "Temp modi-ns",
+      "type": "Template",
+      "command": true,
+      "templatePath": "020_templates/tp_dv_modi-ns",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "modi-ns on {{DATE:}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "002_modns"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    }
+  ],
+  "macros": [
+    {
+      "name": "Add to kanban",
+      "id": "fa0af106-7fe1-452d-9fe7-6759aaf9b100",
+      "commands": [
+        {
+          "name": "create new item",
+          "type": "NestedChoice",
+          "id": "8175518e-63cc-4b5c-96ad-24ca3ad3f195",
+          "choice": {
+            "id": "9e12968b-fe52-4d25-bc65-df564fbd1fc2",
+            "name": "create new item",
+            "type": "Template",
+            "command": false,
+            "templatePath": "020-templates/kanban.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{DATE:}} - {{VALUE:Title}}"
+            },
+            "folder": {
+              "enabled": false,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "74f6d8e3-8b03-40b8-98a4-5630db5b8853",
+          "time": 100
+        },
+        {
+          "name": "add items to board",
+          "type": "NestedChoice",
+          "id": "4fd1c2c6-20f6-4a6c-9153-58874570e281",
+          "choice": {
+            "id": "38a40d0c-e083-43bb-9d5d-91de7fd7906a",
+            "name": "add items to board",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "kanban1.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "[[{{DATE:}} - {{VALUE:Title}}]]"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "## {{VALUE:line1,line2}}",
+              "insertAtEnd": true,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": true,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Tasksycn",
+      "id": "1e5b3d9f-87d0-4cea-b077-b4035ec230b6",
+      "commands": [
+        {
+          "name": "todoistasksync",
+          "type": "UserScript",
+          "id": "36c2edd1-d162-42b3-93db-a63793ec23c6",
+          "path": "scripts/todoistasksync.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "zettelier",
+      "id": "4cea3d4e-d8cb-40b3-871e-3f5434e375ba",
+      "commands": [
+        {
+          "name": "zettelier",
+          "type": "UserScript",
+          "id": "6e0920f2-61ae-4338-b538-71e6328db32c",
+          "path": "scripts/zettelier.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "announceUpdates": true,
+  "version": "1.4.0",
+  "disableOnlineFeatures": true,
+  "ai": {
+    "OpenAIApiKey": "",
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}
